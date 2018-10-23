@@ -1,5 +1,5 @@
 var ServerID = "503363942869893160"; //اي دي السيرفر
-var ChannelID = "504253425374986251";// اي دي الروم
+var ChannelID = "504253463627038721";// اي دي الروم
 
 
 const Discord = require('discord.js');
@@ -43,7 +43,7 @@ var prefix = "."
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`${prefix}say <words>`);
 
-if (command == "41say") {
+if (command == "46say") {
 if(!message.guild.member(message.author).hasPermission("ADMINSTRATOR")) return message.reply("*لا تملك الصلاحيات المطلوبه**");
 
 message.channel.send(args.join("  "))
